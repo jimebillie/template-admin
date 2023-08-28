@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Bai Jamjuree';
+    src: url("../../environment-jimebillie/font/baijamjuree/BaiJamjuree-Regular.ttf");
+}
+*{
+    font-family: "Bai Jamjuree" , sans-serif;
+}
 .login-bg-fixed {
     position: fixed;
     display: flex;

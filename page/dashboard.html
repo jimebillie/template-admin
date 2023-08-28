@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="keywords"
+          content="เทมเพลต, แอดมินเทมเพลต, แดชบอร์ดแอดมิน เทมเพลตฟรี, เทมเพลตแอดมินฟรี, แอดมินเทมเพลตฟร, Template Admin, Admin Template, Template Admin Free, Free Template, Template แอดมิน, ฟรี, Free, Free Admin Template, Template HTML, Template Login, Dashboard Free">
+    <meta name="description"
+          content="แจกเทมเพลต Admin ฟรี, แจกเทมเพลต Login ฟรี, แจก Dashboard ฟรี">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Admin Template Free">
+    <meta property="og:description" content="แจก HTML เทมเพลตแอดมินฟรี by: JiMeBillie">
+    <meta property="og:image" content="../environment-jimebillie/image-dashboard/og-image.png">
+
+    <title>Dashboard</title>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="../environment-jimebillie/bootstrap-5.3.1/css/bootstrap.min.css">
+    <!--\.bootstrap-->
+    <!--fontawesome-->
+    <link rel="stylesheet" href="../environment-jimebillie/fontawesome-6.4.2/css/all.min.css">
+    <!--\.fontawesome-->
+    <!--dashboard-->
+    <link rel="stylesheet" href="../environment-jimebillie/css/dashboard.css">
+    <!--\.dashboard-->
+</head>
+<body>
+
+<nav class="nav_show">
+    <div class="wrap-content">
+        <div id="wrap_fa_bars">
+            <i class="fa-solid fa-bars ps-2" style="cursor: pointer" onclick="collapse_aside()"></i>
+        </div>
+        <b class="mb-0 fw-semibold ps-2" id="name_app">ชื่อ Web Application - Back Office</b>
+    </div>
+</nav>
+
+<aside class="aside_show">
+    <div class="aside_close">
+        <i class="fa-solid fa-circle-chevron-left" style="cursor: pointer" onclick="collapse_aside()"></i>
+    </div>
+
+    <div class="wrap_profile">
+        <div class="wrap_profile_img">
+            <img src="../environment-jimebillie/image-dashboard/profile.png" alt="Profile Image">
+        </div>
+        <div class="wrap_profile_name">
+            <div class="mb-0 status_login">
+                <i class="fa-solid fa-circle text-success me-1" style="font-size: xx-small"></i>ออนไลน์
+            </div>
+            <div class="wrap_name">
+                <!--Detail Profile-->
+                <div class="mb-0 name"><span class="wrap_i_dropdown"><i
+                        class="fa-solid fa-circle-chevron-down me-1"></i></span>
+                    Jirapat Meedoung (JiMeBillie)
+                </div>
+                <div class="wrap_box_detail_profile_name" disP-event="hide">
+                    <div class="p-3">
+                        <div class="mb-1"><b>สถานะ : </b><span
+                                class="badge border rounded-pill bg-success">ออนไลน์</span></div>
+                        <div class="mb-1"><b>ชื่อผู้ใช้ : </b>jimebillie</div>
+                        <div class="mb-1"><b>ชื่อ : </b><span>Jirapat Meedoung</span></div>
+                        <div class="mb-1">
+                            <b>อีเมล : </b><span>forwork.jirapat.meedoung.billie@gmail.com</span>
+                        </div>
+                        <div class="mb-2"><b>บทบาท : </b><span>Super Admin</span></div>
+                        <div><a href="#"><span class="badge bg-warning p-1"><i
+                                class="fa-regular fa-pen-to-square"></i>แก้ไขโปรไฟล์</span></a></div>
+                        <hr>
+                        <div class="mb-1"><a href="login.html"><span class="badge bg-secondary p-2 w-100"><i
+                                class="fa-solid fa-arrow-right-from-bracket"></i> ออกจากระบบ</span></a></div>
+                    </div>
+                </div>
+                <!--\.Detail Profile-->
+            </div>
+        </div>
+    </div>
+    <!--aside Menu-->
+    <div class="wrap_aside_menu">
+
+        <div class="category">
+            หมวดหมู่หลัก
+        </div>
+        <a class="item" href="dashboard.html">
+            <div class="icon">
+                <i class="fa-solid fa-house"></i>
+            </div>
+            <div class="name_menu">หน้าหลัก</div>
+        </a>
+        <a class="item" href="dashboard.html#วิธีการใช้งานเทมเพลต">
+            <div class="icon">
+                <i class="fa-solid fa-file-invoice"></i>
+            </div>
+            <div class="name_menu">วิธีการใช้งานเทมเพลต</div>
+        </a>
+
+        <div class="category">
+            ล็อกอินเพจ
+        </div>
+        <a class="item" href="login.html">
+            <span class="icon">
+                <i class="fa-solid fa-unlock-keyhole"></i>
+            </span>
+            <span class="name_menu">หน้าล็อกอิน เวอร์ชั่น 1</span>
+        </a>
+
+        <div class="category">
+            ตัวเลือกหน้า
+        </div>
+        <a class="item" href="empty-page.html">
+            <span class="icon">
+                <i class="fa-solid fa-file"></i>
+            </span>
+            <span class="name_menu">หน้าเพจเปล่า</span>
+        </a>
+
+    </div>
+    <!--\.aside Menu-->
+
+
+    <!--copyright-->
+    <div class="wrap_aside_copyright">
+        &copy; 2023 | Create By : <a href="https://github.com/jimebillie" target="_blank">JiMeBillie</a>
+    </div>
+    <!--\.copyright-->
+
+</aside>
+
+<!--content-->
+<div id="wrap-content" class="content_show">
+    <div class="area-content">
+
+        <div>
+            <h1>
+                บันทึกประจำเวอร์ชั่น <small>(Release Notes)</small>
+            </h1>
+            <b>เวอร์ชั่นที่ 1.x</b>
+            <blockquote>
+                <ul>
+                    <li>
+                        <a href="#เทมเพลตแอดมิน">เทมเพลตแอดมิน ?</a>
+                    </li>
+                    <li>
+                        <a href="#เวอร์ชั่น">ผังเวอร์ชั่น</a>
+                    </li>
+                    <li>
+                        <a href="#วิธีการใช้งานเทมเพลต">วิธีการใช้งานเทมเพลต</a>
+                        <ul>
+                            <li>
+                                <a href="#หน้าล็อกอิน-เวอร์ชั่น-1">หน้าล็อกอิน เวอร์ชั่น 1</a>
+                            </li>
+                            <li>
+                                <a href="#หน้าแดชบอร์ดเปล่า">หน้าแดชบอร์ดเปล่า</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#แจ้งปัญหาการใช้งาน">แจ้งปัญหาการใช้งาน</a>
+                    </li>
+                </ul>
+            </blockquote>
+        </div>
+
+        <p></p>
+
+        <div class="mt-4">
+            <h2><a href="#เทมเพลตแอดมิน" id="เทมเพลตแอดมิน">เทมเพลตแอดมิน ?</a></h2>
+            <div class="card">
+                <div class="card-body">
+                    <p>
+                        <strong><em>เทมเพลตแอดมิน</em></strong> &ndash; ถูกสร้างขึ้นโดย <a
+                            href="https://github.com/jimebillie" target="_blank">JiMeBillie</a>
+                        เป็นแหล่งทรัพยากรสำหรับ "นักพัฒนาเว็บ" แม้ว่าจะถูกพัฒนาด้วยภาษา HTML, CSS
+                        และ JavaScript ก็ตาม ทำให้นักพัฒนาที่นำไปใช้
+                        สามารถโฟกัสกับการพัฒนาเนื้อหาหลักได้อย่างเต็มที่
+                        โดยไม่จำเป็นต้องเสียเวลาในการออกแบบหน้า "Dashboard" ขึ้นมาใหม่แต่ละครั้ง
+                    </p>
+
+                    <p>
+                        "เทมเพลตแอดมิน" นี้
+                        ทำให้การเริ่มต้นในการสร้างเว็บแอพพลิเคชันหรือแดชบอร์ดเว็บใหม่นั้นง่ายและประหยัดเวลามากขึ้น
+                        ผู้ใช้สามารถใช้เทมเพลตแอดมินเพื่อทำให้ส่วนของการสร้างโครงสร้างและการจัดวางหน้าเว็บเป็นเรื่องง่าย
+                        ทั้งนี้ยังทำให้ผู้ใช้สามารถใช้เวลาในการพัฒนาส่วนประกอบและฟีเจอร์หลักของเว็บแอพพลิเคชันและเว็บไซต์ได้มากขึ้น
+                    </p>
+
+                    <p>
+                        การพัฒนาเว็บแอพพลิเคชันและเว็บไซต์ที่ดี "เทมเพลตแอดมิน" จาก "JiMeBillie"
+                        ช่วยให้การสร้างและพัฒนาแอพพลิเคชันหรือเว็บไซต์ เป็นเรื่องที่น่าสนใจ
+                        เพื่อให้ผู้ใช้สามารถนำไปใช้งานและพัฒนาต่อได้อย่างมีประสิทธิภาพและสมบูรณ์
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <p></p>
+
+        <div>
+            <h2>
+                <a href="#เวอร์ชั่น" id="เวอร์ชั่น">ผังเวอร์ชั่น</a>
+            </h2>
+            <div class="card">
+                <div class="card-body">
+                    <p>
+                        ณ ปัจจุบัน <b>เทมเพลตแอดมิน</b> ถูกพัฒนาโดย "JiMeBillie" เพียงผู้เดียว
+                        ซึ่งยังไม่มีทีมสำหรับพัฒนา
+                        ทำให้การปล่อยเวอร์ชั่นเป็นไปอย่างล่าช้า แผลนของการปล่อยเวอร์ชั่น คือ
+                        จะปล่อยเวอร์ชั่นถัดไปเมื่อพัฒนาเพจ หรือ เมนูเสร็จ &ndash; <em><small>หากมีความสนใจอยากร่วมทีมพัฒนา
+                        ติดต่อ <a
+                                href="mailto:forwork.jirapat.meedoung.billie@gmail.com"
+                                target="_blank">อีเมล : forwork.jirapat.meedoung.billie@gmail.com</a></small></em>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <p></p>
+
+        <div>
+            <h2>
+                <a href="#วิธีการใช้งานเทมเพลต" id="วิธีการใช้งานเทมเพลต">วิธีการใช้งานเทมเพลต</a>
+            </h2>
+            <div class="card">
+                <div class="card-body">
+                    <blockquote>
+                        <div class="alert alert-info">
+                            <b>
+                                ก่อนอื่นดาวน์โหลด .zip หรือ Clone จาก Repository ของ Github นี้ : <a
+                                    class="badge bg-secondary-subtle text-decoration-none text-primary"
+                                    href="https://github.com/jimebillie/template-admin" target="_blank">template-admin</a>
+
+                            </b>
+                        </div>
+
+                        <p></p>
+
+
+                        <ul>
+                            <li>
+                                1. เปิด Folder <b>template-admin</b> จากนั้น เปิดไฟล์ "index.html" ด้วย Browser
+                            </li>
+                            <li>
+                                2. "Sidebar" ด้านซ้ายเลือกหน้าเพจที่ต้องการ เช่น
+                                ต้องการหน้าล็อกอินให้เลือกที่เมนูหน้าล็อกอิน
+                            </li>
+                            <li>
+                                3. เมื่อได้เพจที่ต้องการแล้วให้คลิกขวา แล้วเลือก "View page source" จากนั้น คัดลอก
+                                Source code ไปใช้งาน
+                            </li>
+                        </ul>
+
+                        <p></p>
+
+                        <small>
+                            <em>
+                                ป.ล. ไฟล์ทรัพยากรที่สำคัญอย่าลืม Folder "environment-jimebillie"
+                                ซึ่งรวมไปด้วยไฟล์
+                                CSS , JavaScript, Font, และไฟล์ภาพ
+                            </em>
+                        </small>
+
+
+                    </blockquote>
+
+                    <p></p>
+
+                    <div>
+                        <h3>
+                            <a href="#หน้าล็อกอิน-เวอร์ชั่น-1" id="หน้าล็อกอิน-เวอร์ชั่น-1">
+                                หน้าล็อกอิน เวอร์ชั่น 1
+                            </a>
+                        </h3>
+                        <a class="badge rounded-pill bg-success text-decoration-none" href="login.html" download>
+                            <i class="fa-solid fa-file-arrow-down"></i> ดาวน์โหลดเพจ HTML
+                        </a>
+                        <a class="badge rounded-pill bg-primary text-decoration-none"
+                           href="../environment-jimebillie/css/login.css"
+                           download>
+                            <i class="fa-solid fa-file-arrow-down"></i> ดาวน์โหลดเพจ CSS
+                        </a>
+                        <a class="badge rounded-pill bg-warning text-decoration-none"
+                           href="../environment-jimebillie/javascript/login.js" download>
+                            <i class="fa-solid fa-file-arrow-down"></i> ดาวน์โหลดเพจ JS
+                        </a>
+
+                        <p></p>
+                        <blockquote>
+                            <p>
+                                หากมีความต้องการเปลี่ยนรูปภาพ ของหน้าเพจล็อกอิน ให้เปลี่ยนที่ส่วนล่างของ Tag Script
+                                ที่อยู่ด้านล่างของ Source code ในส่วนของ Object ที่ชื่อ : "change_cover_image"
+                                โดยคัดลอกที่อยู่ภาพมาวางได้เลย
+                            </p>
+                        </blockquote>
+                    </div>
+
+                    <p></p>
+
+                    <div>
+                        <h3>
+                            <a href="#หน้าแดชบอร์ดเปล่า" id="หน้าแดชบอร์ดเปล่า">
+                                หน้าแดชบอร์ดเปล่า
+                            </a>
+                        </h3>
+                        <a class="badge rounded-pill bg-success text-decoration-none" href="empty-page.html"
+                           download>
+                            <i class="fa-solid fa-file-arrow-down"></i> ดาวน์โหลดเพจ HTML
+                        </a>
+                        <a class="badge rounded-pill bg-primary text-decoration-none"
+                           href="../environment-jimebillie/css/dashboard.css"
+                           download>
+                            <i class="fa-solid fa-file-arrow-down"></i> ดาวน์โหลดเพจ CSS
+                        </a>
+                        <a class="badge rounded-pill bg-warning text-decoration-none"
+                           href="../environment-jimebillie/javascript/dashboard.js" download>
+                            <i class="fa-solid fa-file-arrow-down"></i> ดาวน์โหลดเพจ JS
+                        </a>
+
+                        <p></p>
+                        <blockquote>
+                            <p>
+                                หน้าแดชบอร์ดเปล่า สามารถเพิ่มเนื้อหาภายใต้ Class = "area-content"
+                            </p>
+                        </blockquote>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <p></p>
+
+        <div>
+            <h2>
+                <a href="#แจ้งปัญหาการใช้งาน" id="แจ้งปัญหาการใช้งาน">แจ้งปัญหาการใช้งาน</a>
+            </h2>
+            <div class="card">
+                <div class="card-body">
+                    <div class="alert alert-warning">
+                        <b><i class="fa-solid fa-triangle-exclamation"></i> หากพบปัญหา</b> &ndash; สามารถแจ้ง Issue
+                        เข้ามาได้ที่
+                        <a class="badge bg-secondary-subtle text-decoration-none text-primary"
+                           href="https://github.com/jimebillie/template-admin/issues" target="_blank">https://github.com/jimebillie/template-admin/issues</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p></p>
+
+    </div>
+</div>
+<!--\.content-->
+
+<!--bootstrap-->
+<script src="../environment-jimebillie/bootstrap-5.3.1/js/bootstrap.bundle.min.js"></script>
+<script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
+<!--\.bootstrap-->
+<!--fontawesome-->
+<script src="../environment-jimebillie/fontawesome-6.4.2/js/all.min.js"></script>
+<!--\.fontawesome-->
+<!--dashboard-->
+<script src="../environment-jimebillie/javascript/dashboard.js"></script>
+<!--\.dashboard-->
+
+</body>
+</html>

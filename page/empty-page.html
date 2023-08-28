@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <!--bootstrap-->
+  <link rel="stylesheet" href="../environment-jimebillie/bootstrap-5.3.1/css/bootstrap.min.css">
+  <!--\.bootstrap-->
+  <!--fontawesome-->
+  <link rel="stylesheet" href="../environment-jimebillie/fontawesome-6.4.2/css/all.min.css">
+  <!--\.fontawesome-->
+  <!--dashboard-->
+  <link rel="stylesheet" href="../environment-jimebillie/css/dashboard.css">
+  <!--\.dashboard-->
+</head>
+<body>
+
+<nav class="nav_show">
+  <div class="wrap-content">
+    <div id="wrap_fa_bars">
+      <i class="fa-solid fa-bars ps-2" style="cursor: pointer" onclick="collapse_aside()"></i>
+    </div>
+    <b class="mb-0 fw-semibold ps-2" id="name_app">ชื่อ Web Application - Back Office</b>
+  </div>
+</nav>
+
+<aside class="aside_show">
+  <div class="aside_close">
+    <i class="fa-solid fa-circle-chevron-left" style="cursor: pointer" onclick="collapse_aside()"></i>
+  </div>
+
+  <div class="wrap_profile">
+    <div class="wrap_profile_img">
+      <img src="../environment-jimebillie/image-dashboard/profile.png" alt="Profile Image">
+    </div>
+    <div class="wrap_profile_name">
+      <div class="mb-0 status_login">
+        <i class="fa-solid fa-circle text-success me-1" style="font-size: xx-small"></i>ออนไลน์
+      </div>
+      <div class="wrap_name">
+        <!--Detail Profile-->
+        <div class="mb-0 name"><span class="wrap_i_dropdown"><i
+                class="fa-solid fa-circle-chevron-down me-1"></i></span>
+          Jirapat Meedoung (JiMeBillie)
+        </div>
+        <div class="wrap_box_detail_profile_name" disP-event="hide">
+          <div class="p-3">
+            <div class="mb-1"><b>สถานะ : </b><span
+                    class="badge border rounded-pill bg-success">ออนไลน์</span></div>
+            <div class="mb-1"><b>ชื่อผู้ใช้ : </b>jimebillie</div>
+            <div class="mb-1"><b>ชื่อ : </b><span>Jirapat Meedoung</span></div>
+            <div class="mb-1">
+              <b>อีเมล : </b><span>forwork.jirapat.meedoung.billie@gmail.com</span>
+            </div>
+            <div class="mb-2"><b>บทบาท : </b><span>Super Admin</span></div>
+            <div><a href="#"><span class="badge bg-warning p-1"><i
+                    class="fa-regular fa-pen-to-square"></i>แก้ไขโปรไฟล์</span></a></div>
+            <hr>
+            <div class="mb-1"><a href="login.html"><span class="badge bg-secondary p-2 w-100"><i
+                    class="fa-solid fa-arrow-right-from-bracket"></i> ออกจากระบบ</span></a></div>
+          </div>
+        </div>
+        <!--\.Detail Profile-->
+      </div>
+    </div>
+  </div>
+  <!--aside Menu-->
+  <div class="wrap_aside_menu">
+
+    <div class="category">
+      หมวดหมู่หลัก
+    </div>
+    <a class="item" href="dashboard.html">
+      <div class="icon">
+        <i class="fa-solid fa-house"></i>
+      </div>
+      <div class="name_menu">หน้าหลัก</div>
+    </a>
+    <a class="item" href="dashboard.html#วิธีการใช้งานเทมเพลต">
+      <div class="icon">
+        <i class="fa-solid fa-file-invoice"></i>
+      </div>
+      <div class="name_menu">วิธีการใช้งานเทมเพลต</div>
+    </a>
+
+    <div class="category">
+      ล็อกอินเพจ
+    </div>
+    <a class="item" href="login.html">
+            <span class="icon">
+                <i class="fa-solid fa-unlock-keyhole"></i>
+            </span>
+      <span class="name_menu">หน้าล็อกอิน เวอร์ชั่น 1</span>
+    </a>
+
+    <div class="category">
+      ตัวเลือกหน้า
+    </div>
+    <a class="item" href="empty-page.html">
+            <span class="icon">
+                <i class="fa-solid fa-file"></i>
+            </span>
+      <span class="name_menu">หน้าเพจเปล่า</span>
+    </a>
+
+  </div>
+  <!--\.aside Menu-->
+
+
+  <!--copyright-->
+  <div class="wrap_aside_copyright">
+    &copy; 2023 | Create By : <a href="https://github.com/jimebillie" target="_blank">JiMeBillie</a>
+  </div>
+  <!--\.copyright-->
+
+</aside>
+
+<!--content-->
+<div id="wrap-content" class="content_show">
+  <div class="area-content">
+
+    <div>
+      หน้าเปล่า...
+    </div>
+
+  </div>
+</div>
+<!--\.content-->
+
+<!--bootstrap-->
+<script src="../environment-jimebillie/bootstrap-5.3.1/js/bootstrap.bundle.min.js"></script>
+<script>
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
+<!--\.bootstrap-->
+<!--fontawesome-->
+<script src="../environment-jimebillie/fontawesome-6.4.2/js/all.min.js"></script>
+<!--\.fontawesome-->
+<!--dashboard-->
+<script src="../environment-jimebillie/javascript/dashboard.js"></script>
+<!--\.dashboard-->
+
+</body>
+</html>
