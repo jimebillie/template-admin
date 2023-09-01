@@ -1,5 +1,5 @@
 ### Template-Admin V.1.0.1
-> 🌎 `ดูหน้าเทมเพลตแอดมิน` : [https://jimebillie.github.io/template-admin/page/](https://jimebillie.github.io/template-admin/page/)
+> 🌎 `ดูหน้าเทมเพลตแอดมิน` : [https://jimebillie.github.io/template-admin](https://jimebillie.github.io/template-admin/)
 
 ### แจ้งปัญหา & ขอ Feature
 > * `แจ้งปัญหา :` https://github.com/jimebillie/template-admin/issues
