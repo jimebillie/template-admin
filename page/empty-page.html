@@ -6,7 +6,17 @@
         content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jimebillie.github.io/template-admin/page/">
+  <meta property="og:title" content="Admin Template Free">
+  <meta property="og:description" content="แจก HTML เทมเพลตแอดมินฟรี by: JiMeBillie">
+  <meta property="og:image"
+        content="https://jimebillie.github.io/template-admin/environment-jimebillie/image-dashboard/og-image.png">
+
   <title>Dashboard</title>
+
   <!--bootstrap-->
   <link rel="stylesheet" href="../environment-jimebillie/bootstrap-5.3.1/css/bootstrap.min.css">
   <!--\.bootstrap-->
@@ -16,6 +26,10 @@
   <!--dashboard-->
   <link rel="stylesheet" href="../environment-jimebillie/css/dashboard.css">
   <!--\.dashboard-->
+
+  <!--3illie-gallery-plugin-->
+  <link rel="stylesheet" href="../environment-jimebillie/env-3illie-gallery-plugin/css/billie-gallery.css">
+  <!--.\3illie-gallery-plugin-->
 </head>
 <body>
 
@@ -35,7 +49,7 @@
 
   <div class="wrap_profile">
     <div class="wrap_profile_img">
-      <img src="../environment-jimebillie/image-dashboard/profile.webp" alt="Profile Image">
+      <img style="cursor: pointer" src="../environment-jimebillie/image-dashboard/profile.webp" alt="Profile Image" billie-gallery="รูปโปรไฟล์">
     </div>
     <div class="wrap_profile_name">
       <div class="mb-0 status_login">
@@ -87,26 +101,6 @@
       <div class="name_menu">วิธีการใช้งานเทมเพลต</div>
     </a>
 
-    <div class="category">
-      ล็อกอินเพจ
-    </div>
-    <a class="item" href="login.html">
-            <span class="icon">
-                <i class="fa-solid fa-unlock-keyhole"></i>
-            </span>
-      <span class="name_menu">หน้าล็อกอิน เวอร์ชั่น 1</span>
-    </a>
-
-    <div class="category">
-      ตัวเลือกหน้า
-    </div>
-    <a class="item" href="empty-page.html">
-            <span class="icon">
-                <i class="fa-solid fa-file"></i>
-            </span>
-      <span class="name_menu">หน้าเพจเปล่า</span>
-    </a>
-
   </div>
   <!--\.aside Menu-->
 
@@ -122,21 +116,13 @@
 <!--content-->
 <div id="wrap-content" class="content_show">
   <div class="area-content">
-
-    <div>
-      หน้าเปล่า...
-    </div>
-
+    ...
   </div>
 </div>
 <!--\.content-->
 
 <!--bootstrap-->
 <script src="../environment-jimebillie/bootstrap-5.3.1/js/bootstrap.bundle.min.js"></script>
-<script>
-  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-  const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
-</script>
 <!--\.bootstrap-->
 <!--fontawesome-->
 <script src="../environment-jimebillie/fontawesome-6.4.2/js/all.min.js"></script>
@@ -144,6 +130,10 @@
 <!--dashboard-->
 <script src="../environment-jimebillie/javascript/dashboard.js"></script>
 <!--\.dashboard-->
+
+<!--3illie-gallery-plugin-->
+<script src="../environment-jimebillie/env-3illie-gallery-plugin/javascript/billie-gallery.js"></script>
+<!--.\3illie-gallery-plugin-->
 
 </body>
 </html>
