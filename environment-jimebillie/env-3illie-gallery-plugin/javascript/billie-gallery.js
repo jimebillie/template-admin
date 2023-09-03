@@ -131,18 +131,19 @@ class billie_gallery {
      * @disc Function responsive the picture
      */
     Responsive_Window_with_Image(wd_size) {
-
-        wd_size <= this.size_img_now
-            ? (
-                document.querySelector(".Wrap-Now-Image-Gallery").style.height = "unset",
-                    document.querySelector(".Wrap-Now-Image-Gallery > img").style.height = "unset",
-                    document.querySelector(".Wrap-Now-Image-Gallery > img").style.width = "100%"
-            )
-            : (
-                document.querySelector(".Wrap-Now-Image-Gallery").style.height = "100%",
-                    document.querySelector(".Wrap-Now-Image-Gallery > img").style.height = "100%",
-                    document.querySelector(".Wrap-Now-Image-Gallery > img").style.width = "unset"
-            )
+        if(document.querySelector(".Wrap-Now-Image-Gallery") !== null) {
+            wd_size <= this.size_img_now
+                ? (
+                    document.querySelector(".Wrap-Now-Image-Gallery").style.height = "unset",
+                        document.querySelector(".Wrap-Now-Image-Gallery > img").style.height = "unset",
+                        document.querySelector(".Wrap-Now-Image-Gallery > img").style.width = "100%"
+                )
+                : (
+                    document.querySelector(".Wrap-Now-Image-Gallery").style.height = "100%",
+                        document.querySelector(".Wrap-Now-Image-Gallery > img").style.height = "100%",
+                        document.querySelector(".Wrap-Now-Image-Gallery > img").style.width = "unset"
+                )
+        }
     }
 
     Close_Gallery() {

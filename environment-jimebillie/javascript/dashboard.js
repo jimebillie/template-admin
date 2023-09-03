@@ -45,7 +45,7 @@ function event_dropdown_box_detail_profile_name() {
     document.addEventListener("click", function () {
         e <= 0
             ? ("show_block" === a.attributes["disP-event"].textContent && (e += 1))
-            : (a.setAttribute("disP-event", "hide"), e = 0 , n.style.backgroundColor="rgba(220, 220, 220, 0.2)")
+            : (a.setAttribute("disP-event", "hide"), e = 0 , n.style.backgroundColor = "rgba(220, 220, 220, 0.2)")
     })
 }
 
@@ -53,11 +53,15 @@ window.addEventListener("resize", function (e) {
     on_display(e.target.innerWidth), switch_hamburger_bar()
 }), window.addEventListener("DOMContentLoaded", function () {
     on_display(window.innerWidth), switch_hamburger_bar()
-}), document.querySelector("aside > .wrap_profile > .wrap_profile_name > .wrap_name").addEventListener("click", function () {
-    let a = document.querySelector("aside > .wrap_profile > .wrap_profile_name > .wrap_name > .wrap_box_detail_profile_name"),
-        b = document.querySelector("aside > .wrap_profile > .wrap_profile_name > .wrap_name");
+})
 
-    a.setAttribute("disP-event", "show_block"), b.style.backgroundColor = "gainsboro"
+setInterval(function (){
+    document.querySelector("aside > .wrap_profile > .wrap_profile_name > .wrap_name").addEventListener("click", function () {
+        let a = document.querySelector("aside > .wrap_profile > .wrap_profile_name > .wrap_name > .wrap_box_detail_profile_name"),
+            b = document.querySelector("aside > .wrap_profile > .wrap_profile_name > .wrap_name");
 
-}),
-    event_dropdown_box_detail_profile_name();
+        a.setAttribute("disP-event", "show_block"), b.style.backgroundColor = "gainsboro"
+    })
+        ,event_dropdown_box_detail_profile_name();
+})
+
