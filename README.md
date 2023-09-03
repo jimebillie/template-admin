@@ -1,4 +1,4 @@
-### Template-Admin V.1.0.1
+### Template-Admin
 > 🌎 `ดูหน้าเทมเพลตแอดมิน` : [https://jimebillie.github.io/template-admin](https://jimebillie.github.io/template-admin/)
 
 
